@@ -1,0 +1,75 @@
+body {
+  background: #333;
+  color: lightgreen;
+  max-width: 400px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"] {
+  width: 40vh;
+  padding: 0.5rem;
+  border: none;
+  background: hsl(200, 100%, 50%, 0.1);
+  border: 1px solid lightgreen;
+  color: lightgreen;
+  border-radius: 0.25em;
+  outline: none;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+   background: hsl(200, 100%, 50%, 0.1);
+  border: 1px solid lightgreen;
+  color: lightgreen;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  cursor: pointer;
+  outline: none;
+}
+span{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  
+}
+.btn-red{
+  display: flex;
+  justify-content: center;
+  background: hsl(200, 100%, 50%, 0.1);
+  border: 1px solid red;
+  color: red;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.3s ease;
+
+}
+
+.todo-list{
+  list-style-type: none;
+}
+.btn-group {
+  display: flex;
+  flex-direction: row-reverse; 
+  margin-bottom: 0.5rem; 
+}
+.todo-item {
+  background: #333;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
